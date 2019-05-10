@@ -1,0 +1,7 @@
+para rodar o frontend é necessário installar o npm
+e rodar um npm install
+após é só rodar npm start e irá rodar um servidor na
+localhost:8080
+para rodar a aplicação do dotnet core
+é necessário installar o dotnet core e o mongodb
+a api irá rodar com o comando donet run

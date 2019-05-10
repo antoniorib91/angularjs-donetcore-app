@@ -1,0 +1,14 @@
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/bin/Debug/netcoreapp2.2/api.deps.json
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/bin/Debug/netcoreapp2.2/api.runtimeconfig.json
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/bin/Debug/netcoreapp2.2/api.runtimeconfig.dev.json
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/bin/Debug/netcoreapp2.2/api.dll
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/bin/Debug/netcoreapp2.2/api.pdb
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/obj/Debug/netcoreapp2.2/api.csprojAssemblyReference.cache
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/obj/Debug/netcoreapp2.2/api.csproj.CoreCompileInputs.cache
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/obj/Debug/netcoreapp2.2/api.RazorAssemblyInfo.cache
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/obj/Debug/netcoreapp2.2/api.RazorAssemblyInfo.cs
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/obj/Debug/netcoreapp2.2/api.AssemblyInfoInputs.cache
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/obj/Debug/netcoreapp2.2/api.AssemblyInfo.cs
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/obj/Debug/netcoreapp2.2/api.RazorTargetAssemblyInfo.cache
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/obj/Debug/netcoreapp2.2/api.dll
+/home/ribeiro/Documentos/projetos/testes/holdprint/api/obj/Debug/netcoreapp2.2/api.pdb

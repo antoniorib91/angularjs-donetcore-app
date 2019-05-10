@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="app" ng-controller="indexController as controller">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./node_modules/angular/angular.js"></script>
+    <script src="./node_modules/angular-route/angular-route.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" >
+    <link rel="stylesheet" href="./app/assets/style.css" >
+
+    <title>Angular 1.5.11</title>
+  </head>
+  <body>
+      <div class="container-fluid" >
+          <div class="row">
+              <div class="col-md-12 main-content">
+                  <ng-view></ng-view>
+              </div>
+          </div>
+      </div>
+  </body>
+  <script src="./app/modules/app.js"></script>
+</html>

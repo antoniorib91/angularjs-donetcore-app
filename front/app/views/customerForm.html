@@ -1,0 +1,33 @@
+<div class="row" ng-controller="customerController as customerController">
+  <div class="col-md-4">
+    <form>
+      <div class="form-group">
+        <label>Nome social: </label>
+        <input class="form-control" type="text" ng-model="customer.socialName" />
+      </div>
+      <div class="form-group">
+        <label>Nome fantasia: </label>
+        <input class="form-control" type="text" ng-model="customer.fantasyName" />
+      </div>
+      <div class="form-group">
+        <label>E-mail: </label>
+        <input class="form-control" type="email" ng-model="customer.email" />
+      </div>
+      <div class="form-group">
+        <label>CNPJ:</label>
+        <input class="form-control" type="text" ng-model="customer.cnpj" />
+      </div>
+      <div class="form-group">
+        <label>Telefone:</label>
+        <input class="form-control" type="text" ng-model="customer.phoneNumber" />
+      </div>
+      <div class="form-group">
+        <label>Endereço: </label>
+        <input class="form-control" type="text" ng-model="customer.address" />
+      </div>
+      <div class="form-group">
+        <button ng-click="customerController.save(customer)" class="btn btn-success">Enviar</button>
+      </div>
+    </form>
+  </div>
+</div>

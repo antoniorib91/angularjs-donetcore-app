@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="col-md-9">
+    <h3>Lista de Clientes</h3>
+  </div>
+  <div class="col-md-3">
+    <button class="btn btn-primary float-right" ng-click="controller.newCustomer()">Novo Cliente</button>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <table class="table">
+      <thead>
+        <tr>
+          <th><label>Nome Social</label> </th>
+          <th><label>Nome Fantasia</label></th>
+          <th><label>CNPJ</label></th>
+          <th><label class="float-right">Ações</label></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="(key, customer) in customers">
+          <td>{{customer.socialName}}</td>
+          <td>{{customer.fantasyName}}</td>
+          <td>{{customer.cnpj}}</td>
+          <td class="float-right">
+            <button class="btn btn-danger" ng-click="controller.deleteCustomer(customer)"><i class="icon ion-md-trash"></i></button>
+            <button class="btn btn-secondary" ng-click="controller.editCustomer(customer)" ><i class="icon ion-md-create"></i></button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

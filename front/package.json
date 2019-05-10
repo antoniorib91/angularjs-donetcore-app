@@ -1,0 +1,17 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "description": "App with angularjs -v 1.5.11",
+  "dependencies": {
+    "angular": "^1.5.11",
+    "angular-route": "^1.5.11",
+    "express": "*"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antônio Ribeiro",
+  "license": "ISC"
+}
